@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: rgb(119, 3, 235);
+  padding: 0;
+  /* border: 10px yellow solid; */
+}
+
+.container {
+  margin: 0 auto;
+  padding: 25px;
+  /* border: 10px green solid; */
+}
+
+.container ul {
+  list-style-type: none;
+  padding: 0;
+  /* border: 10px blue solid; */
+}
+
+.container ul li {
+  display: inline-block;
+  margin: 0 10px;
+  color: rgb(239, 241, 243);
+}
+
+.container ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.container ul li a:hover {
+  background-color: brown;
+  text-decoration: underline;
+}
+
+.search {
+  float: right;
+
+  /* width: 5%; */
+  cursor: pointer;
+  /* border: 10px red solid; */
+}
+.search:hover {
+  background-color: rgb(19, 139, 139);
+}
+
+#hero-section {
+  height: calc(
+    100vh - 50px
+  ); /* Adjust the height of the hero section to fill the viewport minus the navbar height */
+  position: relative;
+}
+
+#hero-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make sure the image covers the entire hero section without distortion */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#main-section {
+  padding: 50px 300px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+.container h1 {
+  text-align: center;
+  font-weight: 800;
+}
+
+.container h6 {
+  font-style: italic;
+  font-weight: 200;
+  text-align: center;
+  color: grey;
+}
+
+#cards-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* border: 5px solid yellow; */
+}
+
+/* .name {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(0, 0, 0);
+} */
+
+.name h2 {
+  padding: 16px;
+  text-align: center;
+}
+
+.card {
+  /* border: 5px solid red; */
+  border-radius: 20px;
+  overflow: hidden;
+  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); */
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+#contact-section {
+  margin: auto;
+  padding: 10px;
+  /* border: 5px solid blue; */
+  /* text-align: center; */
+}
+
+.contact-content {
+  text-align: center;
+  line-height: 4rem;
+}
+
+.contact-content h2 {
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.contact-content p {
+  font-style: italic;
+  font-weight: 200;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.others {
+  display: flex;
+  justify-content: center;
+}
+.icons-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-content {
+  display: flex;
+  padding-top: 25px;
+  /* border: 5px solid green; */
+}
+
+.icon-content h2 {
+  padding-left: 18px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs input,
+textarea {
+  margin: 9px;
+  padding-top: 16px;
+  border-radius: 6px;
+}
+
+.inputs ::placeholder {
+  padding-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.button {
+  /* border: 5px solid red; */
+}
+
+.button button {
+  float: right;
+  border-radius: 7px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}

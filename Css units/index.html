@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+
+  <style>
+    .grid-layout {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+    .grid-layout > div {
+      border: 2px solid green;
+      padding: 1em;
+      background-color: #fff;
+    }
+
+    .grid-layout > div:nth-child(odd) {
+      background-color: #ccc;
+    }
+  </style>
+
+  <body>
+    <div class="grid-layout">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ea quia
+        laudantium.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        voluptatem ab illum fugit corporis facilis, magni aperiam nihil quas
+        obcaecati iusto explicabo modi totam. In ipsam rem, voluptates
+        distinctio pariatur itaque sunt cumque iusto natus assumenda quidem amet
+        deserunt unde harum,
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ea quia
+        laudantium.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ea quia
+        laudantium.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ea quia
+        laudantium.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ea quia
+        laudantium.
+      </div>
+    </div>
+  </body>
+</html>

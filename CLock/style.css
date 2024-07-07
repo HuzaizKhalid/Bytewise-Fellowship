@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#hour {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+}
+
+#minute {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#second {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#start {
+  /* width: 100px; */
+  /* height: 100px; */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: slategray;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+#start:hover {
+  background-color: rgb(24, 24, 24);
+}
+
+#pause {
+  /* width: 100px; */
+  /* height: 100px; */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: slategray;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+#pause:hover {
+  background-color: rgb(24, 24, 24);
+}
+
+#reset {
+  /* width: 100px; */
+  /* height: 100px; */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: slategray;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+#reset:hover {
+  background-color: rgb(24, 24, 24);
+}

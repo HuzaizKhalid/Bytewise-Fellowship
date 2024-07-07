@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  background: linear-gradient(to right, rgb(1, 44, 1), rgb(127, 235, 127));
+}
+
+.container {
+  /* border: 4px solid firebrick; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-text {
+  flex-basis: 35%;
+  margin-right: 50px;
+  /* border: 4px solid green; */
+}
+
+.heading {
+  font-size: 2.1rem;
+  /* border: 2px solid red; */
+  text-align: start;
+  color: white;
+}
+
+.sub-heading {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 8px;
+  padding: 2px;
+  font-size: 18px;
+  text-align: start;
+  /* text-align: center; */
+  color: white;
+}
+
+.gallery {
+  /* border: 4px solid blue; */
+  flex-basis: 50%;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 120px;
+}
+
+.box {
+  color: white;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #222;
+  background-blend-mode: hard-light;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.box:hover {
+  background-position: center;
+  background-color: #999;
+}
+
+.col-span-2 {
+  grid-column: span 2;
+}
+
+.row-span-2 {
+  grid-row: span 2;
+}
